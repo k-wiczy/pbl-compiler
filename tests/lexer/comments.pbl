@@ -1,0 +1,12 @@
+// line comment /* this is not block comment */
+/* this is
+b
+l
+o
+c
+k
+comment
+*/
+bit /* block comment */ dbg; // this is line comment
+
+pipe main ();

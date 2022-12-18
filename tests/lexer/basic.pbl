@@ -1,0 +1,6 @@
+pipe main (
+    input bit<32> rx,
+    output bit<32> tx
+) {
+    tx = rx;
+}

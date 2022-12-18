@@ -1,0 +1,6 @@
+int a = 23;
+fix<32,16> b = 22.33;
+bit<32> c = 0xDEADBEEF;
+bit<4> d = 0b1010;
+int e = 0d123;
+int f = -33;
