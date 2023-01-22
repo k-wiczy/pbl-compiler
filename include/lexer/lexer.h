@@ -19,7 +19,7 @@ class Lexer {
                     TOKEN_OPERATOR
                 };
  
-                std::string tokenType2Str(TokenType token);
+                static std::string tokenType2Str(TokenType token);
 
             private:
                 int         line;
@@ -32,6 +32,7 @@ class Lexer {
                 std::string Info();
                 TokenType   GetType() { return this->type; }
                 std::string GetValue() { return this->value; }
+                int GetLine() { return this->line; }
         };
 
     private:

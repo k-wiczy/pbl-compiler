@@ -4,6 +4,7 @@
 #include <filesystem>
 #include <vector>
 #include "lexer/lexer.h"
+#include "parser/parser.h"
 
 int main(int argc, char ** argv) {
     std::vector<std::string> args;
@@ -12,5 +13,5 @@ int main(int argc, char ** argv) {
     }
 
     Lexer lexer (args[1]);
-    lexer.Info();
+    Parser parser (lexer.GetTokens());
 }
